@@ -1,12 +1,12 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-"{{env}}".rajudevops.online
-CATALOGUE_HOST: catalogue-"{{env}}".rajudevops.online
-REDIS_HOST: redis-"{{env}}".rajudevops.online
-USER_HOST: user-"{{env}}".rajudevops.online
-CART_HOST: cart-"{{env}}".rajudevops.online
-MYSQL_HOST: mysql-"{{env}}".rajudevops.online
-SHIPPING_HOST: shipping-"{{env}}".rajudevops.online
-RABBITMQ_HOST: rabbitmq-"{{env}}".rajudevops.online
-PAYMENT_HOST: payment-"{{env}}".rajudevops.online
+MONGODB_HOST: "mongodb-{{ env }}.rajudevops.online"
+CATALOGUE_HOST: "catalogue-{{ env }}.rajudevops.online"
+REDIS_HOST: "redis-{{ env }}.rajudevops.online"
+USER_HOST: "user-{{ env }}.rajudevops.online"
+CART_HOST: "cart-{{ env }}.rajudevops.online"
+MYSQL_HOST: "mysql-{{ env }}.rajudevops.online"
+SHIPPING_HOST: "shipping-{{ env }}.rajudevops.online"
+RABBITMQ_HOST: "rabbitmq-{{ env }}.rajudevops.online"
+PAYMENT_HOST: "payment-{{ env }}.rajudevops.online"
 app_version: v3
